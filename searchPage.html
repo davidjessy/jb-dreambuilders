@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dream Builders</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="Mainbodycontainer">
+            <div class="header">
+                <div class="logo">
+                    <img src="images/home.jpg"  />
+                    <h1>Dream Builders</h1>
+                </div>
+            </div>
+            <div class="bannerImage">
+                <img src="images/picture4.jpg" />
+            </div>
+            <div class="bodyContainer">
+                <div class="menu">
+                    <ul class="dropdown">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="aboutusPage.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="testimonialPage.html">Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="bookAppointmentPage.html">Book Appointment</a>
+                        </li>
+                        <li>
+                            <a href="contactusPage.html">Contact Us</a>
+                        </li>
+                        <li class="active">
+                            <a href="searchPage.html" >Search Your Dream</a>
+                        </li>
+                    </ul> 
+                </div>
+                <div class="content">
+                    <div class="SearchSection">
+                        <form action="#" method="POST">
+                            <fieldset>
+                                <legend><i>Enter your Search Criteria</i></legend>
+                                <div class="searchcriteriaContainer">        
+                                    <div>
+                                        <span>Location</span>
+                                        <input type="text" required="" maxlength="50" placeholder="Enter the search location." value="" />
+                                    </div>
+                                    <div>
+                                        <span>House Type</span>
+                                        <em>
+                                        <input type="radio" required="" name="HouseType" value="villa" > Villa <br>
+                                        <input type="radio" required="" name="HouseType" value="apartment"> Apartment <br>
+                                        <input type="radio" required="" name="HouseType" value="Seperated"> Individual House                            
+                                        </em>
+                                    </div>
+                                    <div>
+                                        <span>Bed/Hall/Kitchen</span>
+                                        <em>
+                                            <input type="checkbox" name="BHK[]" value="1 BHK" class="BHKCheckbox" /> 1 Bed/Hall/Kitchen <br />
+                                            <input type="checkbox" name="BHK[]" value="2 BHK" class="BHKCheckbox" /> 2 Bed/Hall/Kitchen <br />
+                                            <input type="checkbox" name="BHK[]" value="2 BHK" class="BHKCheckbox" /> 3 Bed/Hall/Kitchen
+                                        </em>
+                                    </div>   
+                                </div>
+                            <div>
+                                <div class="searchsectionbutton">
+                                <input type="reset" value="Reset" name="Clear details" />
+                                <input type="submit" name="submit" value="Search" />
+                                </div>
+                            </div>
+                        </fieldset>
+                        </form>    
+                    </div>
+                    <div class="searchresults">
+                        <fieldset>
+                            <legend><i>Search Results</i></legend>
+                            <table cellspacing="10" border="1">
+                                <thead>
+                                    <tr>
+                                        <th>Ref.No</th>
+                                        <th>Location</th>
+                                        <th>House Type</th>
+                                        <th>Bed/Hall/Kitchen</th>
+                                        <th>View Plan</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>North York</td>
+                                        <td>Villa</td>
+                                        <td>2 Bed/Hall/Kitchen</td>
+                                        <td><a href="#">Click Here</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>North York</td>
+                                        <td>Villa</td>
+                                        <td>2 Bed/Hall/Kitchen</td>
+                                        <td><a href="#">Click Here</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>North York</td>
+                                        <td>Villa</td>
+                                        <td>3 Bed/Hall/Kitchen</td>
+                                        <td><a href="#">Click Here</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>North York</td>
+                                        <td>Villa</td>
+                                        <td>1 Bed/Hall/Kitchen</td>
+                                        <td><a href="#">Click Here</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>North York</td>
+                                        <td>Villa</td>
+                                        <td>2 Bed/Hall/Kitchen</td>
+                                        <td><a href="#">Click Here</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br />
+                            <div class="center">
+                                <div class="pagination">
+                                  <a href="#">&laquo;</a>
+                                  <a href="#" class="active">1</a>
+                                  <a href="#" >2</a>
+                                  <a href="#">3</a>
+                                  <a href="#">4</a>
+                                  <a href="#">5</a>
+                                  <a href="#">6</a>
+                                  <a href="#">&raquo;</a>
+                                </div>
+                            </div>
+                            <br />
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p  style="margin-bottom: 10px;margin-top:0px;"><em id="copyright-year">2017</em> © <a href="#">Dream Builders</a></p>
+                <br />
+            </div>
+        </div>
+    </body>
+</html>
